@@ -1,0 +1,187 @@
+/*thread titles in home screen*/
+
+a {
+    color: #e1e1e1;
+}
+/*bread crumb links*/
+.ipsBreadcrumb li, .ipsBreadcrumb a {
+    color: #ff0000 !important;
+}
+
+
+
+
+
+/*Topic Button*/
+.ipsApp .ipsButton_important {
+    background: #555555;
+    color: #ffffff;
+}
+/*Filter style*/
+.ipsApp .ipsButton_primary {
+    background: #5d5d5d;
+    color: #ffffff;
+}
+/*postbox01*/
+.ipsStreamItem.ipsStreamItem_contentBlock {
+    border-color: #8d8e8e;
+    background-color: #222222;
+    padding-right: 0 !important;
+    padding-bottom: 3px !important;
+}
+.ipsStreamItem_container .ipsComment {
+    background-color: #222 !important;
+}
+.ipsStreamItem_snippet {
+    background-color: #333333;
+}
+html[dir="ltr"] .ipsStreamItem_meta {
+    margin: 0 0 0 50px;
+    padding: 8px 0 8px 5px;
+    background-color: #333;
+}
+/*code element*/
+.prettyprint {
+    background: #252525;
+    font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+}
+#elProfileTabs_content blockquote.ipsQuote {
+    background: #161616;
+    color: #8d9aa6;
+}
+/*spoiler*/
+.ipsSpoiler, .ipsStyle_spoiler {
+    margin: 0;
+   
+    border-width: 1px 1px 1px 1px;
+    border-color: #000000;
+    border-style: solid;
+    position: relative;
+    background: #333333;
+    clear: both;
+
+}
+  .ipsDataList {
+        background: #333333;
+    }
+}
+.ipsAreaBackground_positive, .ipsBadge_positive {
+    background-color: #940505;
+}
+.ipsDataItem {
+    background-color: #333
+}
+#elFollowers {
+    background-color: #373737 !important;
+}
+/*home screen topic alt color*/
+    .ipsDataList .ipsDataItem:not( .ipsDataItem_selected):not( .ipsModerated):not( .ipsDataItem_new):not( .ipsDataItem_success):not( .ipsDataItem_warning):not( .ipsDataItem_error):not( .ipsDataItem_info):not( .ipsDataItem_status):nth-child(even) {
+        background: #4b4b4b !important;}
+/*hot!*/
+.ipsDataItem_stats_hot {
+    background: #940505;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    position: relative;
+    vertical-align: middle;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+/*thingy I don't know how to describe, it's small so you can keep it this and not notice*/
+.ipsCommentCount {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: #303030;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    line-height: 15px;
+    color: #ffffff;
+    margin-bottom: 3px;
+}
+html[dir="ltr"] .ipsCommentCount:after {
+    right: 100%;
+    border-color: transparent #303030 transparent transparent;
+}
+/*topic header*/
+.ipsComment .ipsComment_content .ipsComment_meta {
+    font-size: 11px;
+    border-top-right-radius: 4px;
+    margin-right: 0 !important;
+    background-color: #2a2a2a;
+    padding: 5px 10px !important;
+}
+/*forum reply button*/
+.ipsApp .ipsButton_link, .ipsApp .ipsButton_link.ipsPromote, .ipsApp .ipsButton_link.ipsFollow {
+    background: #555555;
+    color: #DDDDDD;
+}
+/*topic post color*/
+html[dir="ltr"] .ipsColumns > .ipsColumn:last-child:not( .ipsPad ), html[dir="ltr"] .ipsColumns.ipsColumns_noSpacing > .ipsColumn:not( .ipsPad ) {
+    background-color: #2a2a2a;
+}
+.ipsApp .ipsButton_light {
+    background: #940505;
+    border-color: rgba(0,0,0,0.03);
+    color: #c3ddac;
+}
+.ipsComment .ipsComment_content .ipsComment_controls a {
+    display: inline-block;
+    background: #940505;
+    color: #DDDDDD;
+    line-height: 24px;
+    padding: 0 8px;
+    border-radius
+}
+.ipsPromote .ipsPromote_icon, .ipsFollow .ipsCommentCount {
+    background: #940505;
+    color: #DDDDDD;
+}
+html[dir="ltr"] .ipsFollow .ipsCommentCount:after {
+    border-color: transparent #940505 transparent transparent;
+}
+.ipsApp .ipsPagination.ipsPagination_mini li a {
+    background-color: #602d2d;
+    color: #dddddd;
+}
+.ipsComment.ipsComment_popular .ipsComment_popularFlag {
+    position: absolute;
+    top: -3px;
+    background: #940505;
+    text-align: center;
+    color: #fff;
+    width: 34px;
+    height: 40px;
+    font-size: 26px;
+    padding-top: 11px;
+    z-index: 5000;
+    border-radius: 2px 2px 0 0;
+}
+.ipsComment.ipsComment_popular .ipsComment_popularFlag:after {
+    border-width: 13px 17px 17px 17px;
+    border-style: solid;
+    border-color: #940505 transparent transparent transparent;
+    top: 100%;
+}
+.ipsComment.ipsComment_popular {
+    border: 1px solid #8b3737 !important;
+}
+.ipsApp .ipsButton_veryLight {
+    background: #940505;
+    border-color: #e8e8e8;
+    color: #fff;
+}
+.ipsComment:not( .ipsModerated ) .ipsComment_header {
+    background-color: #2a2a2a;
+}
+#elMessageViewer .ipsComment_content > div:not(.ipsComment_header) {
+    background-color: #2a2a2a;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+    
