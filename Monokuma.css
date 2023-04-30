@@ -44,13 +44,20 @@ html[dir="ltr"] .ipsStreamItem_meta {
 }
 /*code element*/
 .prettyprint {
-    background: #252525;
+    background: #161616;
     font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
 }
-#elProfileTabs_content blockquote.ipsQuote {
+/*pretty print 2*/
+.ipsCode {
     background: #161616;
+    border: 0 !important;
+    border-radius: 3px;
+}
+#elProfileTabs_content blockquote.ipsQuote {
+    background: #222222;
     color: #8d9aa6;
 }
+
 /*spoiler*/
 .ipsSpoiler, .ipsStyle_spoiler {
     margin: 0;
@@ -193,9 +200,6 @@ html[dir="ltr"] .ipsFollow .ipsCommentCount:after {
     color: #dddddd;
     padding-bottom: 12px;
 }
-.ipsPad, .ipsApp ul.ipsPad, .ipsApp ol.ipsPad {
-    background-color: #2a2a2a;
-}
 .ipsStream .ipsStreamItem_contentType {
     background-color: #940505;
     border-color: #940505;
@@ -210,4 +214,3 @@ html[dir="ltr"] .ipsFollow .ipsCommentCount:after {
 .fa-star:before {
     color: #fff500;
 }
-
